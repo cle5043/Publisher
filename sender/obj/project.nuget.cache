@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "njpgKN6HXnI1LGsp4RsRFSJPMgGixS5Zn3NgSd0CEZjE5DCZ/+kPinIwPlV10lVEK6CvMyjGd0QrVF80Pp6rYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chunhan\\source\\repos\\sender\\sender\\sender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chunhan\\.nuget\\packages\\solacesystems.solclient.messaging\\10.12.0\\solacesystems.solclient.messaging.10.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

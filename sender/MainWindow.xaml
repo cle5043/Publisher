@@ -1,0 +1,28 @@
+﻿<Window x:Class="sender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sender"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="234">
+    <Grid Margin="0,0,0,-88">
+        <RadioButton Content="Publish" HorizontalAlignment="Left" Margin="29,159,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Request" HorizontalAlignment="Left" Margin="115,159,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="Host："/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="79,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="VPN"/><Run Text="："/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="79,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="18,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="Account"/><Run Text="："/></TextBlock>
+        <Button x:Name="ConnectButton" Content="發送" HorizontalAlignment="Left" Margin="33,259,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click_1"/>
+        <Button Content="清除" HorizontalAlignment="Left" Margin="129,259,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="80,90,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="Topic"/><Run Text="："/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="79,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock x:Name="CommunicationWindow" HorizontalAlignment="Center" Margin="0,296,0,19" TextWrapping="Wrap" Width="214" Text="溝通訊息"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"><Run Language="zh-tw" Text="PassWord"/><Run Text="："/></TextBlock>
+        <PasswordBox HorizontalAlignment="Left" Margin="80,122,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="訊息"/><Run Text="："/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="79,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+    </Grid>
+</Window>

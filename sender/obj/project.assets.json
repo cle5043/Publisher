@@ -1,0 +1,252 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SolaceSystems.Solclient.Messaging/10.12.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {}
+        },
+        "build": {
+          "build/SolaceSystems.Solclient.Messaging.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcrypto.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcrypto.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsolclient.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libssl.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libssl.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libcrypto.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libcrypto.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libsolclient.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libssl.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libssl.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {
+            "assetType": "runtime",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcrypto.1.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libcrypto.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libsolclient.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libssl.1.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libssl.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {
+            "assetType": "runtime",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libcrypto-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libsolclient.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libssl-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll": {
+            "assetType": "runtime",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libcrypto-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libsolclient.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libssl-1_1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolaceSystems.Solclient.Messaging/10.12.0": {
+      "sha512": "tZZDWPActYFAI5UGOKMIjf6DOJznWJnjNVQMxznFGTnZ/KlAF1RBKHDgoD3NoOcZNBDIojjuPKlXlNamE7GtDA==",
+      "type": "package",
+      "path": "solacesystems.solclient.messaging/10.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/SolaceSystems.Solclient.Messaging.targets",
+        "build/net20/SolaceSystems.Solclient.Messaging.targets",
+        "build/net20/win-x64/libcrypto-1_1.dll",
+        "build/net20/win-x64/libsolclient.dll",
+        "build/net20/win-x64/libssl-1_1.dll",
+        "build/net20/win-x86/libcrypto-1_1.dll",
+        "build/net20/win-x86/libsolclient.dll",
+        "build/net20/win-x86/libssl-1_1.dll",
+        "lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "lib/net20/SolaceSystems.Solclient.Messaging.xml",
+        "licenses.txt",
+        "ref/net20/SolaceSystems.Solclient.Messaging.dll",
+        "ref/net20/SolaceSystems.Solclient.Messaging.xml",
+        "ref/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "ref/netstandard2.0/SolaceSystems.Solclient.Messaging.xml",
+        "runtimes/linux-x64/lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/linux-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/linux-x64/native/libcrypto.so",
+        "runtimes/linux-x64/native/libcrypto.so.1.1",
+        "runtimes/linux-x64/native/libsolclient.so",
+        "runtimes/linux-x64/native/libssl.so",
+        "runtimes/linux-x64/native/libssl.so.1.1",
+        "runtimes/linux-x86/lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/linux-x86/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/linux-x86/native/libcrypto.so",
+        "runtimes/linux-x86/native/libcrypto.so.1.1",
+        "runtimes/linux-x86/native/libsolclient.so",
+        "runtimes/linux-x86/native/libssl.so",
+        "runtimes/linux-x86/native/libssl.so.1.1",
+        "runtimes/osx-x64/lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/osx-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/osx-x64/native/libcrypto.1.1.dylib",
+        "runtimes/osx-x64/native/libcrypto.dylib",
+        "runtimes/osx-x64/native/libsolclient.dylib",
+        "runtimes/osx-x64/native/libssl.1.1.dylib",
+        "runtimes/osx-x64/native/libssl.dylib",
+        "runtimes/win-x64/lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/win-x64/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/win-x64/native/libcrypto-1_1.dll",
+        "runtimes/win-x64/native/libsolclient.dll",
+        "runtimes/win-x64/native/libssl-1_1.dll",
+        "runtimes/win-x86/lib/net20/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/win-x86/lib/netstandard2.0/SolaceSystems.Solclient.Messaging.dll",
+        "runtimes/win-x86/native/libcrypto-1_1.dll",
+        "runtimes/win-x86/native/libsolclient.dll",
+        "runtimes/win-x86/native/libssl-1_1.dll",
+        "solacesystems.solclient.messaging.10.12.0.nupkg.sha512",
+        "solacesystems.solclient.messaging.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SolaceSystems.Solclient.Messaging >= 10.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chunhan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chunhan\\source\\repos\\sender\\sender\\sender.csproj",
+      "projectName": "sender",
+      "projectPath": "C:\\Users\\chunhan\\source\\repos\\sender\\sender\\sender.csproj",
+      "packagesPath": "C:\\Users\\chunhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chunhan\\source\\repos\\sender\\sender\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chunhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "SolaceSystems.Solclient.Messaging": {
+            "target": "Package",
+            "version": "[10.12.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
